@@ -1,0 +1,28 @@
+# .github/workflows/validate.yml
+name: Validate Jekyll Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository
+      - uses: actions/checkout@v4
+
+      # Step 2: Setup Ruby
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+
+      # Step 3: Install Jekyll directly
+      - name: Install Jekyll
+        run: gem install jekyll
+
+      # Step 4: Build the site
+      - name: Build Site
+        run: jekyll build
