@@ -1,10 +1,10 @@
-title: Business Frontpage
-description: A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header.
+title: SoftwareOplossing.be
+description: Wij maken software op maat en nemen het volledige proces van transformatie en optimalisatie uit handen. Met onze expertise leveren we de oplossing die u &eacute;cht nodig heeft, zodat u zich kunt richten op waar u goed in bent.
 
 # disabled because we are using a custom domain
 #baseurl: /business-frontpage 
 
-color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
+color-scheme: "#378068" # the scheme can be any HEX code like "#00aa55"
 
 sass:
   sass_dir: /assets/css/_sass

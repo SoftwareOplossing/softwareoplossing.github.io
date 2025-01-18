@@ -65,18 +65,3 @@ $on-laptop: 800px;
 @import "bootstrap/print";
 
 @import "style", "custom";
-
-@font-face {
-  font-family: 'asapbold';
-  src: url('/assets/fonts/asapbold-kmmp-webfont.woff2') format('woff2'),
-       url('/assets/fonts/asapbold-kmmp-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@for $i from 1 through 6 {
-  h#{$i} {
-    font-family: 'asapbold';
-    /* font-size: $base-font-size + $heading-scale * (6 - $i); */
-  }
-}
