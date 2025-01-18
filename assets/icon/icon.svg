@@ -1,0 +1,79 @@
+<svg width="1024" height="1024">
+	<defs>
+		<linearGradient id="coloring" x1="0%" y1="0%" x2="50%" y2="100%" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="#42BE84" />
+			<stop offset="100%" stop-color="#2B424B" />
+		</linearGradient>
+	</defs>
+	<mask id="cutOut">
+		<rect stroke-width="0" fill="black" x="0" y="0" width="1024" height="1024" />
+		<circle stroke-width="0" fill="white" cx="512" cy="512" r="416" />
+		<path stroke-width="0" fill="black" d="M464,176 a1,1 0 0,0 0,464" />
+		<rect stroke-width="0" fill="black" x="464" y="176" width="64" height="464" />
+		<rect stroke-width="0" fill="black" x="496" y="384" width="64" height="464" />
+		<path stroke-width="0" fill="black" d="M560,848 a1,1 0 0,0 0,-464" />
+	</mask>
+	<g fill="url(#coloring)">
+		<g mask="url(#cutOut)">
+			<!--rect stroke-width="0" x="0" y="16" width="1024" height="32" />
+			<rect stroke-width="0" x="0" y="80" width="1024" height="32" />
+			<rect stroke-width="0" x="0" y="144" width="240" height="32" /-->
+			<rect stroke-width="0" x="0" y="208" width="240" height="32" />
+			<rect stroke-width="0" x="0" y="272" width="240" height="32" />
+			<rect stroke-width="0" x="480" y="208" width="544" height="32" />
+			<rect stroke-width="0" x="480" y="272" width="544" height="32" />
+			<rect stroke-width="0" x="0" y="336" width="1024" height="32" />
+			<rect stroke-width="0" x="0" y="400" width="1024" height="32" />
+			<rect stroke-width="0" x="0" y="464" width="1024" height="32" />
+			<rect stroke-width="0" x="0" y="528" width="1024" height="32" />
+			<rect stroke-width="0" x="0" y="592" width="1024" height="32" />
+			<rect stroke-width="0" x="0" y="656" width="1024" height="32" />
+			<rect stroke-width="0" x="0" y="720" width="544" height="32" />
+			<rect stroke-width="0" x="0" y="784" width="544" height="32" />
+			<rect stroke-width="0" x="784" y="720" width="240" height="32" />
+			<rect stroke-width="0" x="784" y="784" width="240" height="32" />
+			<!--rect stroke-width="0" x="784" y="848" width="240" height="32" />
+			<rect stroke-width="0" x="784" y="912" width="240" height="32" />
+			<rect stroke-width="0" x="784" y="976" width="240" height="32" />
+
+			<rect stroke-width="0" x="16" y="848" width="32" height="176" />
+			<rect stroke-width="0" x="80" y="848" width="32" height="176" />
+			<rect stroke-width="0" x="144" y="848" width="32" height="176" />
+			<rect stroke-width="0" x="208" y="848" width="32" height="176" /-->
+			<rect stroke-width="0" x="272" y="848" width="32" height="176" />
+			<rect stroke-width="0" x="336" y="848" width="32" height="176" />
+			<rect stroke-width="0" x="400" y="848" width="32" height="176" />
+			<rect stroke-width="0" x="464" y="848" width="32" height="176" />
+			<rect stroke-width="0" x="528" y="608" width="32" height="416" />
+			<rect stroke-width="0" x="592" y="608" width="32" height="416" />
+			<rect stroke-width="0" x="656" y="608" width="32" height="416" />
+			<rect stroke-width="0" x="720" y="608" width="32" height="416" />
+
+			<rect stroke-width="0" x="272" y="0" width="32" height="416" />
+			<rect stroke-width="0" x="336" y="0" width="32" height="416" />
+			<rect stroke-width="0" x="400" y="0" width="32" height="416" />
+			<rect stroke-width="0" x="464" y="0" width="32" height="416" />
+			<rect stroke-width="0" x="528" y="0" width="32" height="176" />
+			<rect stroke-width="0" x="592" y="0" width="32" height="176" />
+			<rect stroke-width="0" x="656" y="0" width="32" height="176" />
+			<rect stroke-width="0" x="720" y="0" width="32" height="176" />
+			<!--rect stroke-width="0" x="784" y="0" width="32" height="176" />
+			<rect stroke-width="0" x="848" y="0" width="32" height="1024" />
+			<rect stroke-width="0" x="912" y="0" width="32" height="1024" />
+			<rect stroke-width="0" x="976" y="0" width="32" height="1024" /-->
+		</g>
+
+		<path stroke-width="0" d="M464,208 a1,1 0 0,0 0,400" />
+		<rect stroke-width="0" x="464" y="208" width="32" height="400" />
+		<rect stroke-width="0" x="496" y="416" width="32" height="192" />
+		<rect stroke-width="0" x="528" y="416" width="32" height="400" />
+		<path stroke-width="0" d="M560,816 a1,1 0 0,0 0,-400" />
+
+		<circle stroke-width="0" cx="512" cy="42" r="42" />
+		<circle stroke-width="0" cx="919" cy="277" r="42" />
+		<circle stroke-width="0" cx="919" cy="747" r="42" />
+		<circle stroke-width="0" cx="512" cy="982" r="42" />
+		<circle stroke-width="0" cx="105" cy="277" r="42" />
+		<circle stroke-width="0" cx="105" cy="747" r="42" />
+	</g>
+</svg>
