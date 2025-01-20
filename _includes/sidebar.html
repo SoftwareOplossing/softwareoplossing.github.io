@@ -1,6 +1,6 @@
 <h2>Werkwijze</h2>
 <hr />
-<ol>
+<!--ol>
   <li>Verkennend gesprek</li>
   <li>Analyse</li>
   <li>Terugkoppeling</li>
@@ -9,5 +9,101 @@
   <li>Frequente updates</li>
   <li>Installaties, integraties en eventuele trainingen</li>
   <li>Incrementeel groeien</li>
-</ol>
-<a class="btn btn-primary btn-lg" href="mailto:Contact@SoftwareOplossing.be">Start hier &raquo;</a>
+</ol-->
+
+<div class="ep-flowchart">
+  <div class="ep-svg-wrap">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+      <g fill="none" fill-rule="evenodd">
+        <g>
+          <g transform="translate(163 98)">
+            <g transform="rotate(90 69.5 70)">
+              <g>
+                <path stroke="#42BE84" stroke-width="4" stroke-linecap="square" d="M.336 2.5h33.46"/>
+                <polygon fill="#42BE84" points="25 10 25 -5 40 2.5"/>
+              </g>
+            </g>
+            <g transform="rotate(90 27.5 112)">
+              <g>
+                <path stroke="#42BE84" stroke-width="4" stroke-linecap="square" d="M.336 2.5h38.46"/>
+                <polygon fill="#42BE84" points="37 5 37 0 40 2.5"/>
+              </g>
+            </g>
+            <g transform="rotate(90 53 220.5)">
+              <g>
+                <path stroke="#42BE84" stroke-width="4" d="M87 3H38.009C32.48 3 28 7.48 28 13v247c0 5.523 4.483 10 10.009 10H87"/>
+                <path stroke="#42BE84" stroke-width="4" d="M28.5 137H.996"/>
+                <polygon fill="#42BE84" points="87 6 87 0 90 3"/>
+                <polygon fill="#42BE84" points="87 273 87 267 90 270"/>
+              </g>
+            </g>
+            <g transform="translate(3 335)">
+              <path stroke="#42BE84" stroke-width="4" d="M0 0v73.009C0 78.527 4.485 83 9.992 83H70"/>
+              <polygon fill="#42BE84" points="70 86 70 80 73 83"/>
+            </g>
+            <g transform="matrix(-1 0 0 1 271 335)">
+              <path stroke="#42BE84" stroke-width="4" d="M0 0v73.009C0 78.527 4.485 83 9.992 83H70"/>
+              <polygon fill="#42BE84" points="70 86 70 80 73 83"/>
+            </g>
+          </g>
+          <g class="ep-svg-block" transform="translate(229 56)" onclick="showDetails( 'Eerste contact', 'Via mail of videobellen overlopen we welke oplossing u zoekt en wie wij zijn en hoe wij u kunnen helpen. We sluiten af met het plannen van een verkennend gesprek bij u op het bedrijf.' )" >
+            <rect width="141" height="40" fill="#378068" rx="20"/>
+            <text fill="#FFFFFF" font-size="18" letter-spacing="1">
+              <tspan x="27.022" y="25">Eerste contact</tspan>
+            </text>
+          </g>
+          <g class="ep-svg-block" transform="translate(244 140)" onclick="showDetails( 'Verkennend gesprek', 'Wij komen op bezoek bij u om de bedrijfsprocessen te leren kennen en de kern van de uitdagingen te analyseren. We sluiten af met een zicht op de effectieve bedrijfsprocessen.' )">
+            <rect width="112" height="40" fill="#378068" rx="20"/>
+            <text fill="#FFFFFF" font-size="18" letter-spacing="1">
+              <tspan x="29.964" y="25">Verkennend gesprek</tspan>
+            </text>
+          </g>
+          <g class="ep-svg-block" transform="translate(239 224)" onclick="showDetails( 'Technische analyse', 'Intern met verschillende experts gaan we over tot de technische analyse om een eerste oplossing om te zetten in een plan van aanpak.' )">
+            <rect width="122" height="40" fill="#378068" rx="20"/>
+            <text fill="#FFFFFF" font-size="18" letter-spacing="1">
+              <tspan x="31.49" y="25">Technische analyse</tspan>
+            </text>
+          </g>
+          <g class="ep-svg-block" transform="translate(241 496)" onclick="showDetails( 'Terugkoppeling', 'Wij spreken opnieuw met u af om het plan van aanpak met verschillende tussenliggende stappen en milestones voor te stellen, zodat u weet hoe we in grote lijnen te werk willen gaan en welke oplossing u zal kunnen bekomen.' )">
+            <rect width="118" height="40" fill="#378068" rx="20"/>
+            <text fill="#FFFFFF" font-size="18" letter-spacing="1">
+              <tspan x="31.589" y="25">Terugkoppeling</tspan>
+            </text>
+          </g>
+          <g class="ep-svg-block" transform="translate(66 357)">
+            <rect width="200" height="74" fill="#378068" rx="37"/>
+            <text fill="#FFFFFF" font-size="18" letter-spacing="1">
+              <tspan x="36.046" y="33">ELEMENTS OF </tspan> <tspan x="65.559" y="54">DESIGN</tspan>
+            </text>
+          </g>
+          <g class="ep-svg-block" transform="translate(335 357)">
+            <rect width="200" height="74" fill="#378068" rx="37"/>
+            <text fill="#FFFFFF" font-size="18" letter-spacing="1">
+              <tspan x="30.707" y="33">PRINCIPLES OF </tspan> <tspan x="30.196" y="54">ORGANIZATION</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div class="ep-detail-wrap" onclick="hideDetails()" style="display: none;">
+    <div class="ep-detail">
+      <h4>SoftwareOplossing.be</h4>
+      <p>Optimaliseer vandaag, groei morgen</p>
+    </div>
+  </div>
+</div>
+<a class="btn btn-primary btn-lg" target="_blank" href="https://app.simplymeet.me/softwareoplossing">Start hier &raquo;</a>
+<script>
+	function showDetails( title, text ) {
+		console.log( title + ' : ' + text );
+		$(".ep-detail h4").text( title );
+		$(".ep-detail p").text( text );
+		$(".ep-detail-wrap").show();
+	}
+	function hideDetails() {
+		console.log( "Hide !!!" );
+		$(".ep-detail-wrap").hide();
+	}
+	$(".ep-detail-wrap").hide();
+</script>

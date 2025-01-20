@@ -1,11 +1,11 @@
 - title: Home
   link: /
 
-- title: About
-  link: /about/
+- title: Voordelen
+  link: /voordelen/
 
-- title: Services
-  link: "/services/"
+- title: Team
+  link: /team/
 
 - title: Contact
   link: "/contact/"
