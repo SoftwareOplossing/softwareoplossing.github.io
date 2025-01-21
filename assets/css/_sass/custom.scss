@@ -21,8 +21,20 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'asapregular';
+    src: url('/assets/fonts/asap-m2pr-webfont.woff2') format('woff2'),
+         url('/assets/fonts/asap-m2pr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+* {
+  font-family: 'asapregular';
+}
+*/
 @for $i from 1 through 6 {
-  h#{$i} {
+  h#{$i}, h#{$i} * {
     font-family: 'asapbold';
     /* font-size: $base-font-size + $heading-scale * (6 - $i); */
   }
@@ -30,4 +42,10 @@
 
 td {
   padding-left: 16px;
+}
+
+.banner {
+  border-bottom: 8px solid transparent;
+  border-image: linear-gradient(90deg, #42BE84, #2B424B);
+  border-image-slice: 1;
 }
