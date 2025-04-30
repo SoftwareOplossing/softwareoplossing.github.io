@@ -1,6 +1,4 @@
-![main branch status](https://img.shields.io/github/actions/workflow/status/softwareoplossing/softwareoplossing.github.io/validate.yml?logo=github&label=main)
-![gh-pages branch status](https://img.shields.io/github/actions/workflow/status/softwareoplossing/softwareoplossing.github.io/pages/pages-build-deployment?logo=github&label=gh-pages)
-
+![main branch !status](https://img.shields.io/github/actions/workflow/status/softwareoplossing/softwareoplossing.github.io/cd.yml?logo=github&label=main)
 
 # SoftwareOplossing.be website
 
